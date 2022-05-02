@@ -1,0 +1,424 @@
+
+.container{   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* background-color: #411574; */
+}
+.button{
+    transition: 0.2s all ease;
+    background-color: aliceblue;
+    color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.button:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: blue;
+    color: aliceblue;
+    border: 1px solid rgb(54, 7, 226);
+}
+.button:not(:last-child){
+    margin-right: 30px;
+}
+.h1, .p{
+    color: gray; 
+}
+.ul{
+    color:blue;
+    font-style: italic;
+}
+p > b{
+    color:red;
+    font-weight:bold;
+}
+p > i{
+    color:blue;
+
+}
+.blue{
+    background-color: aqua;
+    font-family: 'Oswald';
+    text-align: center;
+    font-size: 15px;
+    color: rgb(10, 6, 6);
+}
+.table{
+    display: flex;
+    /* margin: 0 auto;
+    width: 300px; */
+    justify-content: center;
+}
+.table p{
+    margin-right:35px;
+}
+.tablle{
+    display: flex;
+    justify-content: center;
+}
+.tablle a{
+    margin-right: 35px;
+    color:red;
+}
+.icon{
+    fill: red;
+}
+.icon:hover{
+    fill: purple;
+    width: 200px;
+    height: 200px;
+}
+.icon:focus{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.card{
+    /* margin-top: 10px; */
+    margin: 12px;
+    background-color: white;
+    border: 1px solid rgba(245, 238, 238, 0.575);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 200px;
+}
+.picture{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin:10px;
+}
+/* .conttent{
+    //list-style-position: center;
+    //margin-left: 270px;
+    //margin-top: 15px;
+    //float:left;
+    //padding-right: 20px;
+    //width:100%;
+} */
+.card-flex-start-aligned{
+    align-self: start;
+    margin: 12px;
+    background-color: white;
+    border: 1px solid rgba(245, 238, 238, 0.575);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 200px;
+}
+.picture2{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin:10px;
+    float:left;
+}
+.content{
+    margin-top: 15px; ;
+}
+.baner{
+    position: relative;    
+}
+.banerpicture{
+    display: block;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+    /* margin-left:100px; */
+    text-align: center;
+}
+.header1{
+    position: absolute;
+    top:30px;
+    left: 300px;
+    font-family: 'Oswald';
+    /* text-align: center; */
+    font-size: 40px;
+    color: gray;
+    line-height: 10px;
+}
+.header2{
+    position: absolute;
+    top:80px;
+    left: 300px;
+    font-family: 'Oswald';
+    /* text-align: center; */
+    font-size: 40px;
+    color: gray;
+    line-height :10px;
+}
+.header3{
+    position: absolute;
+    top:130px;
+    left: 300px;
+    font-family: 'Oswald';
+    /* text-align: center; */
+    font-size: 40px;
+    color: gray;
+    line-height: 10px;
+}
+.text1{
+    position: absolute;
+    top:230px;
+    left: 300px;
+    font-family: 'Oswald';
+    /* text-align: center; */
+    font-size: 15px;
+    color: gray;
+    line-height: 10px;       
+}
+.text2{
+    position: absolute;
+    top:245px;
+    left: 300px;
+    font-family: 'Oswald';
+    /* text-align: center; */
+    font-size: 15px;
+    color: gray;
+    line-height: 10px;  
+}
+.button1{
+    position: absolute;
+    transition: 0.2s all ease;
+    background-color: aliceblue;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 4px;
+    top:295px;
+    left: 300px;
+}
+.button1:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(14, 5, 26);
+    color: aliceblue;
+    border: 1px solid rgb(3, 1, 8);
+}
+.button2{
+    position: absolute;
+    transition: 0.2s all ease;
+    background-color: aliceblue;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 4px;
+    top:295px;
+    left: 400px;
+}
+.button2:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(14, 5, 26);
+    color: aliceblue;
+    border: 1px solid rgb(3, 1, 8);
+}
+.grad-set{
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+.grad-set li{
+    min-width:500px;
+    background-color: gray;
+    /* width:300px; */
+    height:60px;
+    text-align: center;
+    margin-right:10px;
+    margin-top:10px;
+    line-height: 60px;
+}
+/* .darkblue{ */
+    /* flex-wrap: wrap; */
+    /* margin-bottom: 133px; */
+    /* list-style: none; */
+    /* display: flex; */
+    /* border: 1px solid black; */
+    /* background-color:white; */
+    /* height:400px; */
+    /* width:1200px; */
+/* } */
+/* .box1 li{ */
+    /* flex:1; */
+    /* background-color:rgb(70, 15, 221); */
+    /* width:400px; */
+    /* border-radius: 12px; */
+    /* padding: 34px; */
+    /* margin-top: 85px; */
+    /* text-align: left; */
+    /* width: calc((100% - 2 * 70px)/3); */
+    /* display: flex; */
+    /* border: 15px solid darkblue; */
+    /* margin-right: 70px; */
+    /* flex:1; */
+/* } */
+/* .box1:nth-child(3n){ */
+    /* margin-right: 0px; */
+
+/* } */
+ /* .piccture{ */
+
+    /* margin-top: 100px; */
+    /* margin-left: 80px; */
+    /* width: 100%; */
+    /* height:100px; */
+    /* border-radius: 50%; */
+
+/* } */
+ /* .texxt{
+    justify-content: center;
+    display:table-cell; 
+    vertical-align: middle;
+    min-width: 400px;
+    line-height:400px;
+    font-family: 'Oswald';
+    text-align:center;
+    font-size:30px;
+    margin-left: 80px;
+    margin-top: 1500px; 
+    margin-right: 50px; 
+
+}  */
+/* .box2{
+    border: 15px solid darkblue ; */
+    /* flex:1; */
+/*}
+/* .box3{ */
+    /* border: 15px solid darkblue; */
+    /* flex:1; */
+/* } */
+/* .box4{
+    border: 15px solid darkblue;
+    /* flex:1; */
+/* } */ 
+.darkblue{
+    flex-wrap: wrap;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    width: 1200px;
+    height: 400px;
+}
+.box1{
+    border: 15px solid darkblue;
+    flex: 1;
+}
+.piccture{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left:80px;
+    margin-top: 100px;
+}
+.texxt{
+    margin-left:90px;
+    margin-top: 20px;
+    color:orange;
+}
+.texxxt{
+    font-family: Oswand;
+    margin-left:60px;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;  
+    font-weight: bold;
+}
+.texxxxt{
+    margin-left:60px; 
+    margin-top: 20px;
+    color: gray;
+    font-size: 10px;
+}
+.box2{
+    border: 15px solid darkblue;
+    flex: 1;
+}
+.piccture{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left:80px;
+    margin-top: 100px;
+}
+.texxt1{
+    margin-left:90px;
+    margin-top: 20px;
+    color:orange;
+}
+.texxxt1{
+    font-family: Oswand;
+    margin-left:80px;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;  
+    font-weight: bold;
+}
+.texxxxt1{
+    margin-left:60px; 
+    margin-top: 20px;
+    color: gray;
+    font-size: 10px;
+}
+.box3{
+    border: 15px solid darkblue;
+    flex: 1;
+}
+.piccture{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left:80px;
+    margin-top: 100px;
+}
+.texxt2{
+    margin-left:120px;
+    margin-top: 20px;
+    color:orange;
+}
+.texxxt2{
+    font-family: Oswand;
+    margin-left:80px;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;  
+    font-weight: bold;
+}
+.texxxxt2{
+    margin-left:60px; 
+    margin-top: 20px;
+    color: gray;
+    font-size: 10px;
+}
+.box4{
+    border: 15px solid darkblue;
+    flex: 1;
+}
+.piccture{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left:80px;
+    margin-top: 100px;
+}
+.texxt3{
+    margin-left:100px;
+    margin-top: 20px;
+    color:orange;
+}
+.texxxt3{
+    font-family: Oswand;
+    margin-left:60px;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;  
+    font-weight: bold;
+}
+.texxxxt3{
+    margin-left:60px; 
+    margin-top: 20px;
+    color: gray;
+    font-size: 10px;
+}
